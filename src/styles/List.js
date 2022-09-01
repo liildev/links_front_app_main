@@ -20,50 +20,6 @@ export const Table = styled.table`
       text-decoration: none;
     }
   }
-
-  @media (max-width: 1023px) {
-    table-layout: fixed;
-
-    td {
-      white-space: nowrap;
-      overflow-y: hidden;
-    }
-
-    th:first-child {
-      width: 20px !important;
-    }
-
-    td:first-child {
-      width: 20px !important;
-    }
-
-    th:last-child {
-      width: 50px !important;
-    }
-    td:last-child {
-      width: 50px !important;
-    }
-  }
-
-  @media (max-width: 817px) {
-    td,
-    th {
-      font-size: 12px;
-    }
-
-    th:first-child {
-      width: 15px !important;
-    }
-    td:first-child {
-      width: 15px !important;
-    }
-    th:last-child {
-      width: 30px !important;
-    }
-    td:last-child {
-      width: 30px !important;
-    }
-  }
 `;
 
 export const P = styled.p`

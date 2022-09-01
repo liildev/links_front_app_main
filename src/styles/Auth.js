@@ -25,11 +25,6 @@ export const Row = styled.div`
     margin-bottom: 2rem;
   }
 
-  @media (max-width: 600px) {
-    h2 {
-      font-size: 26px;
-    }
-  }
 `;
 
 export const Form = styled.form`
@@ -68,14 +63,6 @@ export const Form = styled.form`
     align-self: flex-start;
   }
 
-  @media (max-width: 452px) {
-    div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  }
 `;
 
 export const ButtonUp = styled.button`
@@ -128,25 +115,12 @@ export const ButtonUp = styled.button`
     box-shadow: #3c4fe0 0 3px 7px inset;
     transform: translateY(2px);
   }
-
-  @media (max-width: 600px) {
-    font-size: 16px;
-    height: 38px;
-  }
-
-
-  @media (max-width: 452px) {
-    margin-left: 0;
-    margin-top: 10px;
-  }
 `;
 
 export const ButtonIn = styled.button`
   align-items: center;
-  appearance: none;
   background-color: #fcfcfd;
   border-radius: 4px;
-  border-width: 0;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   box-sizing: border-box;
@@ -156,18 +130,13 @@ export const ButtonIn = styled.button`
   height: 48px;
   justify-content: center;
   line-height: 1;
-  list-style: none;
   overflow: hidden;
   padding-left: 16px;
   padding-right: 16px;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
   transition: box-shadow 0.15s, transform 0.15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
 
@@ -185,10 +154,5 @@ export const ButtonIn = styled.button`
   &:active {
     box-shadow: #d6d6e7 0 3px 7px inset;
     transform: translateY(2px);
-  }
-
-  @media (max-width: 600px) {
-    font-size: 16px;
-    height: 38px;
   }
 `;

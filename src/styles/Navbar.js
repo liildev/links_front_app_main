@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
-export const Nav = styled.nav`
+export const Div = styled.div`
+  background-color: #5468ff;
+`;
+
+export const Nav = styled.li`
   display: flex;
   align-items: center;
-  padding: 20px 100px;
-  background-color: #5468ff;
+  padding: 20px 0;
 
   & > a {
     font-size: 22px;
@@ -18,15 +21,17 @@ export const Nav = styled.nav`
     margin-left: auto;
     gap: 30px;
 
+    #check {
+      display: none;
+    }
+
     li {
       a {
-        position: relative;
         color: white;
-
         text-decoration: none;
         font-size: 18px;
         font-weight: 500;
-        padding: 10px 0;
+        padding: 10px;
 
         &:hover {
           box-shadow: 0 0.5em 0.5em -0.4em black;
@@ -38,16 +43,6 @@ export const Nav = styled.nav`
         box-shadow: 0 0.5em 0.5em -0.4em black;
         transform: translateY(-0.25em);
       }
-    }
-  }
-
-  @media (max-width: 817px) {
-    & > a {
-      font-size: 18px;
-    }
-
-    ul li a {
-      font-size: 14px;
     }
   }
 `;

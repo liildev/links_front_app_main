@@ -50,12 +50,4 @@ export const CreateStyled = styled.form`
     font-size: 16px;
     align-self: flex-start;
   }
-
-  @media (max-width: 817px) {
-    padding: 15px;
-
-    h2 {
-      font-size: 18px;
-    }
-  }
 `;

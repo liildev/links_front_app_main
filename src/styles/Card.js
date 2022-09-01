@@ -40,21 +40,4 @@ export const Card = styled.div`
       margin-left: 5px;
     }
   }
-
-  @media (max-width: 732px) {
-    p {
-      white-space: nowrap;
-      overflow-y: hidden;
-    }
-  }
-
-  @media (max-width: 600px) {
-    h2 {
-      font-size: 28px;
-    }
-
-    p {
-      font-size: 14px;
-    }
-  }
 `;
